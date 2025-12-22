@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Book Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <h2>Contact Book Demo</h2>
+  <div class="input-div">
+
+    <div class="input-flex">
+    <input type="search" placeholder="Search contact name" class="contact-search">
+    <select name="filter" id="filter" class="filter-search">
+      <option value="">Family</option>
+    <option value="">Work</option>
+    <option value="">Friends</option>
+  </select>
+  <button class="all-delete-btn"><i class="fa-solid fa-address-book"></i> Delete all contact</button>
+  </div>
+    <div class="input-add">
+      <input type="text" placeholder="Contact name" class="contact-name"><input type="text" placeholder="Contact email" class="contact-email"><input type="text" placeholder="Contact category" class="contact-category">
+      <button class="add-btn">Add to contact</button>
+
+<div class="popup-message">
+
+</div>
+      <div class="display-contact">
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
