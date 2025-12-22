@@ -1,0 +1,156 @@
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inpt-div {
+  width: 50px;
+  margin: 0 auto;
+  max-width: 500px;
+}
+input {
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid green;
+  outline: none;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 550px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+select {
+padding: 15px;
+ border-radius: 5px;
+border: 1px solid #03a503;
+font-size: 16px;
+background-color: #03a503;
+color: white;
+outline: none;
+}
+
+.all-delete-btn {
+ background-color: red;
+ color: white;
+ font-size: 14px;
+ border: 1px solid red;
+ border-radius: 5px;
+ padding: 8px 20px;
+ display: inline-block;
+}
+
+i {
+  font-size: 20px;
+}
+
+.input-add {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 550px;
+  margin: 40px auto;
+}
+
+.add-btn {
+  width: 85%;
+  padding: 15px 0;
+  font-size: 16px;
+  background-color: #03a503;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #03a503;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.green-popup {
+    background-color: #ecfdf5; 
+    color: #065f46;           
+    border-left: 6px solid #10b981; 
+    padding: 16px 24px;
+    margin: 12px 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 2px;        
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    animation: slideRight 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+
+@keyframes slideRight {
+    from { transform: translateX(-10px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+
+.red-popup {
+    background-color: #fef2f2; 
+    color: #991b1b;            
+    border-left: 6px solid #ef4444; 
+    padding: 16px 24px;
+    margin: 12px 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 2px;        
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    
+    
+    animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+
+@keyframes shake {
+    10%, 90% { transform: translate3d(-1px, 0, 0); }
+    20%, 80% { transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+    40%, 60% { transform: translate3d(4px, 0, 0); }
+}
+
+.contact-card {
+  box-shadow: 0 4px 6px -1px rgba(86, 84, 84, 0.1);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-p {
+  display: flex;
+ justify-content: space-between;
+ gap: 2rem;
+ border-bottom: 1px solid #dfdbdb;
+ height: 2rem;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.popup-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
