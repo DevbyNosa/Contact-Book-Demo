@@ -11,15 +11,14 @@
   <h2>Contact Book Demo</h2>
   <div class="input-div">
 
-    <div class="input-flex">
-    <input type="search" placeholder="Search contact name" class="contact-search">
-    <select name="filter" id="filter" class="filter-search">
-      <option value="">Family</option>
-    <option value="">Work</option>
-    <option value="">Friends</option>
-  </select>
-  <button class="all-delete-btn"><i class="fa-solid fa-address-book"></i> Delete all contact</button>
+  <p class="note-p">For saving category, you must either save it in Family, Work or Friend</p>
   </div>
+  <div class="contact-stats">
+    <div class="stat-box">
+        <h3 id="contactCount">0</h3>
+        <p>Total Contacts</p>
+    </div>
+</div>
     <div class="input-add">
       <input type="text" placeholder="Contact name" class="contact-name"><input type="text" placeholder="Contact email" class="contact-email"><input type="text" placeholder="Contact category" class="contact-category">
       <button class="add-btn">Add to contact</button>
@@ -28,6 +27,10 @@
 
 </div>
       <div class="display-contact">
+
+      </div>
+
+      <div class="edit-popup">
 
       </div>
     </div>
